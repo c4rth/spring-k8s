@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    org.c4rth.spring_k8s.TestEnvironmentPostProcessor

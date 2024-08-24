@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-k8s
+data:
+  application.yaml: |-
+    k8s:
+      key1: value1
+      key2: value2
+      pool:
+        size:
+          core: 1
+          max: 16
